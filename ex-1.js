@@ -6,3 +6,9 @@ for(let i = 0;i<scores.length;i++){
     scores[i] = scores[i] - 10;
 }
 console.log(scores);
+
+// let updatedScores = [];
+// for (let point of scores) {
+//   updatedScores.push(point - 10);
+// }
+// console.log(updatedScores);

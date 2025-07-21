@@ -2,9 +2,16 @@
 let scores = [100, 20, 3, 1000];
 let minScore = scores[0];
 // Start coding here
-for(let i = 0;i<scores.length;i++){
-    if(scores[i] < minScore){
-        minScore = scores[i];
+// for(let i = 0;i<scores.length;i++){
+//     if(scores[i] < minScore){
+//         minScore = scores[i];
+//     }
+// }
+// console.log(minScore);
+
+for(let i of scores){
+    if(i < minScore){
+        minScore = i;
     }
 }
 console.log(minScore);
