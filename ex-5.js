@@ -8,6 +8,6 @@ let companyName = "TechUp";
 
 let count = 1;
 for(let i of companyName){
-    console.log("Number " + count + " character " + i);
+    console.log("Number " + count + " character is " + i);
     count++;
 }
